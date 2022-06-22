@@ -2,7 +2,12 @@
 import Button from '../Button/Button';
 import { buttonGreen } from '../Button/Button.module.style';
 import { containerBlue, fullWidthWrap } from '../Header/Header.module.style';
-import { image, content, heroResponsive } from './Hero.module.style';
+import {
+  image,
+  content,
+  heroResponsive,
+  bootstrapOverride,
+} from './Hero.module.style';
 
 const Hero = () => {
   return (
@@ -14,7 +19,7 @@ const Hero = () => {
         >
           <div className="row no-margin d-flex justify-content-between">
             <div className="col-md-5 text-white d-flex align-items-center">
-              <div>
+              <div css={bootstrapOverride}>
                 <h2>
                   Welcome to <strong>Tutorialzine</strong>!
                 </h2>

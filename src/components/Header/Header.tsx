@@ -13,7 +13,7 @@ const Header = () => {
     <div css={fullWidthWrap}>
       <div className="container-fluid" css={containerBlue}>
         <nav className="navbar navbar-expand-md navbar-dark pt-3">
-          <div className="container-fluid " css={containerBlue}>
+          <div className="container-fluid" css={containerBlue}>
             <div className="nav-item">
               <a
                 href="#search"

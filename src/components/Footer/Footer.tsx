@@ -8,19 +8,29 @@ const Footer = () => {
         <h3 className="opacity-25">A community that learns together.</h3>
         <ul className="list-inline d-flex">
           <li className="m-2">
-            <a href="#search">Article license</a>
+            <a className="text-decoration-none text-secondary" href="#search">
+              Article license
+            </a>
           </li>
           <li className="m-2">
-            <a href="#search">Terms and conditions</a>
+            <a className="text-decoration-none text-secondary" href="#search">
+              Terms and conditions
+            </a>
           </li>
           <li className="m-2">
-            <a href="#search">Privacy policy</a>
+            <a className="text-decoration-none text-secondary" href="#search">
+              Privacy policy
+            </a>
           </li>
           <li className="m-2">
-            <a href="#search">Contact form</a>
+            <a className="text-decoration-none text-secondary" href="#search">
+              Contact form
+            </a>
           </li>
           <li className="m-2">
-            <a href="#search">The Book</a>
+            <a className="text-decoration-none text-secondary" href="#search">
+              The Book
+            </a>
           </li>
         </ul>
         <p className="opacity-25">
