@@ -5,6 +5,7 @@ import {
   containerNew,
   fullWidthWrapFooterHero,
 } from '../Header/Header.module.style';
+import { centeredText } from '../Hero/Hero.module.style';
 import { image, content, heroResponsive } from './FooterHero.module.style';
 
 const FooterHero = () => {
@@ -25,14 +26,14 @@ const FooterHero = () => {
               ></img>
             </div>
             <div className="col-md-5 text-white d-flex align-items-center">
-              <div>
+              <div css={centeredText}>
                 <h2>
-                  Welcome to <strong>Tutorialzine</strong>!
+                  Dev <strong>Awesome</strong>!
                 </h2>
                 <p className="mt-4" css={heroResponsive}>
-                  We are a community of talented developers who learn together.
-                  We have an ever-growing library of high-quality tutorials and
-                  articles that you can read completely for free!
+                  A weekly newsletter full of programming news, cool libraries,
+                  and productivity tips. Subscribe now and join
+                  <strong>over 80k developers!</strong>
                 </p>
                 <div className="stack-sm">
                   <Button text="Browse content" color={buttonRed} />

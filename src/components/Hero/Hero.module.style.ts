@@ -17,7 +17,7 @@ export const heroResponsive = css({
   fontSize: '22px',
 });
 
-export const bootstrapOverride = css({
+export const centeredText = css({
   [mq[0]]: {
     textAlign: 'center',
     maxHeight: '200px',

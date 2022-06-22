@@ -6,7 +6,7 @@ import {
   image,
   content,
   heroResponsive,
-  bootstrapOverride,
+  centeredText,
 } from './Hero.module.style';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
         >
           <div className="row no-margin d-flex justify-content-between">
             <div className="col-md-5 text-white d-flex align-items-center">
-              <div css={bootstrapOverride}>
+              <div css={centeredText}>
                 <h2>
                   Welcome to <strong>Tutorialzine</strong>!
                 </h2>
