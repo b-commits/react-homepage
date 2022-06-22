@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import { containerWhite } from '../Header/Header.module.style';
+import { whiteContainer } from '../../shared/shared.style';
 import { buttonGreen } from '../Button/Button.module.style';
 import { cardTitle, cardDescription, card } from './Article.module.style';
 import Button from '../Button/Button';
@@ -16,7 +16,7 @@ export interface ArticleProps {
 
 const Articles = ({ articles }: ArticleProps) => {
   return (
-    <div className="container-fluid" css={containerWhite}>
+    <div className="container-fluid" css={whiteContainer}>
       <div className="d-flex justify-content-center mt-4 mb-1">
         <h2>Latest articles</h2>
       </div>

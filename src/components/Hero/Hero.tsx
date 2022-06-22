@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import Button from '../Button/Button';
 import { buttonGreen } from '../Button/Button.module.style';
-import { containerBlue, fullWidthWrap } from '../Header/Header.module.style';
+import { blueContainer, fullWidthWrapBlue } from '../../shared/shared.style';
 import {
   image,
   content,
@@ -11,8 +11,8 @@ import {
 
 const Hero = () => {
   return (
-    <div css={fullWidthWrap}>
-      <div className="container-fluid" css={containerBlue}>
+    <div css={fullWidthWrapBlue}>
+      <div className="container-fluid" css={blueContainer}>
         <div
           className="hero-content d-flex align-items-center p-1"
           css={content}

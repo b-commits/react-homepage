@@ -1,17 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import Button from '../Button/Button';
 import { buttonRed } from '../Button/Button.module.style';
-import {
-  containerNew,
-  fullWidthWrapFooterHero,
-} from '../Header/Header.module.style';
+import { navyContainer, fullWidthWrapNavy } from '../../shared/shared.style';
 import { centeredText } from '../Hero/Hero.module.style';
 import { image, content, heroResponsive } from './FooterHero.module.style';
 
 const FooterHero = () => {
   return (
-    <div css={fullWidthWrapFooterHero}>
-      <div className="container-fluid" css={containerNew}>
+    <div css={fullWidthWrapNavy}>
+      <div className="container-fluid" css={navyContainer}>
         <div
           className="hero-content d-flex align-items-center p-1"
           css={content}

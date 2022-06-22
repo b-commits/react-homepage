@@ -1,19 +1,15 @@
 /** @jsxImportSource @emotion/react */
-import {
-  logo,
-  containerBlue,
-  hamburger,
-  fullWidthWrap,
-} from './Header.module.style';
+import { logo, hamburger } from './Header.module.style';
 import Button from '../Button/Button';
+import { blueContainer, fullWidthWrapBlue } from '../../shared/shared.style';
 import { buttonGreen } from '../Button/Button.module.style';
 
 const Header = () => {
   return (
-    <div css={fullWidthWrap}>
-      <div className="container-fluid" css={containerBlue}>
+    <div css={fullWidthWrapBlue}>
+      <div className="container-fluid" css={blueContainer}>
         <nav className="navbar navbar-expand-md navbar-dark pt-3">
-          <div className="container-fluid" css={containerBlue}>
+          <div className="container-fluid" css={blueContainer}>
             <div className="nav-item">
               <a
                 href="#search"
