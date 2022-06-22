@@ -1,5 +1,7 @@
 import { css } from '@emotion/react';
 
+export const primary = '#1BA7DA';
+
 export const whiteContainer = css({
   backgroundColor: 'white',
   maxWidth: '1200px',
@@ -26,7 +28,7 @@ export const navyContainer = css({
 
 export const fullWidthWrapBlue = css({
   width: '100vw',
-  backgroundColor: '#1ba7da',
+  backgroundColor: '#1BA7DA',
 });
 
 export const fullWidthWrapNavy = css({
