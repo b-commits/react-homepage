@@ -1,9 +1,14 @@
 /** @jsxImportSource @emotion/react */
-import { buttonStyle } from './Button.module.style';
+import { SerializedStyles } from '@emotion/react';
 
-const Button = ({ text }: any) => {
+interface inputProps {
+  text: string;
+  color: SerializedStyles;
+}
+
+const Button = ({ text, color }: inputProps) => {
   return (
-    <button className="btn btn-success" css={buttonStyle}>
+    <button className="btn btn-success" css={color}>
       {text}
     </button>
   );

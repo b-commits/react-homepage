@@ -1,18 +1,30 @@
 /** @jsxImportSource @emotion/react */
 import Button from '../Button/Button';
-import { buttonGreen } from '../Button/Button.module.style';
-import { containerBlue, fullWidthWrap } from '../Header/Header.module.style';
-import { image, content, heroResponsive } from './Hero.module.style';
+import { buttonRed } from '../Button/Button.module.style';
+import {
+  containerBlue,
+  containerNew,
+  fullWidthWrap,
+  fullWidthWrapFooterHero,
+} from '../Header/Header.module.style';
+import { image, content, heroResponsive } from './FooterHero.module.style';
 
-const Hero = () => {
+const FooterHero = () => {
   return (
-    <div css={fullWidthWrap}>
-      <div className="container-fluid" css={containerBlue}>
+    <div css={fullWidthWrapFooterHero}>
+      <div className="container-fluid" css={containerNew}>
         <div
           className="hero-content d-flex align-items-center p-1"
           css={content}
         >
           <div className="row no-margin d-flex justify-content-between">
+            <div className="col-md-6 d-flex justify-content-end">
+              <img
+                src="/hero.png"
+                className="d-none d-md-block"
+                css={image}
+              ></img>
+            </div>
             <div className="col-md-5 text-white d-flex align-items-center">
               <div>
                 <h2>
@@ -24,16 +36,9 @@ const Hero = () => {
                   articles that you can read completely for free!
                 </p>
                 <div className="stack-sm">
-                  <Button text="Browse content" color={buttonGreen} />
+                  <Button text="Browse content" color={buttonRed} />
                 </div>
               </div>
-            </div>
-            <div className="col-md-6 d-flex justify-content-end">
-              <img
-                src="/hero.png"
-                className="d-none d-md-block"
-                css={image}
-              ></img>
             </div>
           </div>
         </div>
@@ -42,4 +47,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default FooterHero;
