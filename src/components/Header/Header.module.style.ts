@@ -19,7 +19,7 @@ export const hamburger = css({
 export const input = css({
   fontSize: '1.5em',
   minHeight: '50px',
-  minWidth: '1200px',
+  minWidth: '100vw',
   background: primary,
   color: 'white',
   border: 'none',
