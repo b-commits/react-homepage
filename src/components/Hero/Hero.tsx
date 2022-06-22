@@ -30,7 +30,8 @@ const Hero = () => {
             </div>
             <div className="col-md-6 d-flex justify-content-end">
               <img
-                src="/hero.png"
+                alt="hero-main"
+                src="https://b-commits.github.io/react-homepage/hero.png"
                 className="d-none d-md-block"
                 css={image}
               ></img>

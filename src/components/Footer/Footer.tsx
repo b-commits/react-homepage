@@ -1,5 +1,4 @@
 /** @jsxImportSource @emotion/react */
-import { containerWhite } from '../Header/Header.module.style';
 import { socials, footerContainer } from './Footer.module.style';
 
 const Footer = () => {
@@ -9,19 +8,19 @@ const Footer = () => {
         <h3 className="opacity-25">A community that learns together.</h3>
         <ul className="list-inline d-flex">
           <li className="m-2">
-            <a>Article license</a>
+            <a href="#search">Article license</a>
           </li>
           <li className="m-2">
-            <a>Terms and conditions</a>
+            <a href="#search">Terms and conditions</a>
           </li>
           <li className="m-2">
-            <a>Privacy policy</a>
+            <a href="#search">Privacy policy</a>
           </li>
           <li className="m-2">
-            <a>Contact form</a>
+            <a href="#search">Contact form</a>
           </li>
           <li className="m-2">
-            <a>The Book</a>
+            <a href="#search">The Book</a>
           </li>
         </ul>
         <p className="opacity-25">
@@ -29,13 +28,13 @@ const Footer = () => {
         </p>
         <ul className="d-flex" css={socials}>
           <li>
-            <i className="bi bi-facebook m-3"></i>
+            <i className="bi bi-facebook m-3" role="button" />
           </li>
           <li>
-            <i className="bi bi-twitter m-3"></i>
+            <i className="bi bi-twitter m-3" role="button" />
           </li>
           <li>
-            <i className="bi bi-github m-3"></i>
+            <i className="bi bi-github m-3" role="button" />
           </li>
         </ul>
       </footer>

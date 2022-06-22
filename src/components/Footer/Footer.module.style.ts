@@ -1,13 +1,5 @@
 import { css } from '@emotion/react';
 
-export const quote = css({
-  opacity: '.2',
-});
-
-export const copyright = css({
-  opacity: '.5',
-});
-
 export const socials = css({
   listStyle: 'none',
 });

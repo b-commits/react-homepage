@@ -1,4 +1,5 @@
 {
+  "homepage": "http://b-commits.github.io/react-homepage/",
   "name": "react-homepage",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "bootstrap": "^5.2.0-beta1",
+    "github-pages": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -19,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@types/bootstrap": "^5.1.12"
+    "@types/bootstrap": "^5.1.12",
+    "gh-pages": "^4.0.0"
   }
 }

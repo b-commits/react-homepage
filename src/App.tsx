@@ -1,12 +1,8 @@
 /** @jsxImportSource @emotion/react */
-import {
-  containerBlue,
-  containerWhite,
-  fullWidthWrap,
-} from './components/Header/Header.module.style';
+import { mockArticles } from './components/Article/mockArticles';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import Article from './components/Article/Article';
+import Articles from './components/Article/Article';
 import FooterHero from './components/FooterHero/FooterHero';
 import Footer from './components/Footer/Footer';
 
@@ -15,7 +11,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Article />
+      <Articles articles={mockArticles} />
       <FooterHero />
       <Footer />
     </>

@@ -2,9 +2,7 @@
 import Button from '../Button/Button';
 import { buttonRed } from '../Button/Button.module.style';
 import {
-  containerBlue,
   containerNew,
-  fullWidthWrap,
   fullWidthWrapFooterHero,
 } from '../Header/Header.module.style';
 import { image, content, heroResponsive } from './FooterHero.module.style';
@@ -20,7 +18,8 @@ const FooterHero = () => {
           <div className="row no-margin d-flex justify-content-between">
             <div className="col-md-6 d-flex justify-content-end">
               <img
-                src="/hero.png"
+                alt="hero-main"
+                src="https://b-commits.github.io/react-homepage/hero.png"
                 className="d-none d-md-block"
                 css={image}
               ></img>
