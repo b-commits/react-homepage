@@ -17,6 +17,7 @@ export const hamburger = css({
 });
 
 export const input = css({
+  text: 'black',
   fontSize: '1.5em',
   minHeight: '50px',
   minWidth: '100vw',
@@ -24,7 +25,7 @@ export const input = css({
   color: 'white',
   border: 'none',
   '::placeholder': {
-    color: 'white',
+    color: 'blue',
   },
   ':focus': {
     outline: 'none',

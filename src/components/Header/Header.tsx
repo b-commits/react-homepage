@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div css={fullWidthWrapBlue}>
       <div className="container-fluid" css={blueContainer}>
-        <div id="searchbar" className="collapse opacity-50">
+        <div id="searchbar" className="collapse">
           <input type="search" placeholder="Search..." css={input} />
         </div>
         <nav className="navbar navbar-expand-md navbar-dark pt-3">
