@@ -14,3 +14,6 @@ Alternatively, you can visit the following URL and try out the live demo yoursel
 | NPM              | v8.1.0                                          |
 | Live demo        | [http://b-commits.github.io/react-homepage/](http://b-commits.github.io/react-homepage/) |
 
+# Design
+
+[https://tutorialzine.com/](https://tutorialzine.com/) Originally: Copyright © Zine EOOD. All Rights Reserved.
