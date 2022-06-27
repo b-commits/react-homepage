@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="box"></div>
+    <br />
+
+    <button id="control">SET</button>
+    <button id="control2">REMOVE</button>
+    <br />
+    <br />
+
+    <div class="navbar">
+      <ul style="margin-left: 100px">
+        <li>Witam</li>
+        <li>Cześć</li>
+      </ul>
+
+      <ul style="margin-right: 100px">
+        <li>Kontakt</li>
+        <li>Inne rzeczy</li>
+        <li>Inne rzeczy</li>
+        <li>Inne rzeczy</li>
+      </ul>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+      }
+
+      .navbar {
+        width: 100vw;
+        height: 80px;
+        background-color: blanchedalmond;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      #box {
+        width: 200px;
+        height: 100px;
+        background-size: 100% 200%;
+        background-image: linear-gradient(to bottom, red 50%, black 50%);
+        -webkit-transition: background-position 1s;
+        -moz-transition: background-position 1s;
+        transition: background-position 0s ease-in-out;
+      }
+
+      .animate {
+        background-position: 0 -100%;
+      }
+    </style>
+
+    <script>
+      document.getElementById('control').onclick = () => {
+        document
+          .getElementById('box')
+          .style.removeProperty('background-position');
+        document.getElementById('box').style.transition =
+          'background-position 1s';
+        document.getElementById('box').classList.add('animate');
+      };
+      document.getElementById('control2').onclick = () => {
+        document.getElementById('box').style.transition = 'none 0s linear';
+        document.getElementById('box').style.backgroundPosition = '0 0 ';
+      };
+    </script>
+  </body>
+</html>

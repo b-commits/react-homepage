@@ -20,14 +20,18 @@ export const input = css({
   text: 'black',
   fontSize: '1.5em',
   minHeight: '50px',
-  minWidth: '100vw',
+
   background: primary,
   color: 'white',
   border: 'none',
   '::placeholder': {
-    color: 'blue',
+    color: 'white',
   },
   ':focus': {
     outline: 'none',
   },
+});
+
+export const searchbar = css({
+  marginLeft: '15%',
 });
